@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  FONT AWESOME  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--  MAIN CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+
+
+    <!--  HEADER DESIGN  -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#interests">Interests</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+        <!--   HOME SECTION DESIGN  -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello World</h3>
+                <h3>I'm Nahome Kifle</h3>
+                <h3>And I'm an Aspiring <span class="multiple-text"></span></h3>
+                <p>I'm a Senior at Virginia Commonwealth University majoring in Computer Science with a focus on Software Engineering.</p>
+                <div class="social-media">
+                    <!-- LinkedIn Icon -->
+                    <a href="https://www.linkedin.com/in/nahome-kifle/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                
+                    <!-- GitHub Icon -->
+                    <a href="https://github.com/NahomeKifle" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                
+                <!-- Download CV Button -->
+                <a href="assets/Resume for port.pdf" class="btn" download="Nahome_Kifle_CV.pdf">Download CV</a>
+                
+            </div>
+
+            <div class="home-img">
+                <img src="assets/Headshot-circle.png" alt="">
+            </div>
+        </section>
+
+            <!--   ABOUT SECTION DESIGN  -->
+            <section class="about" id="about">
+                <div class="about-content">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <div class="about-boxes">
+                        <!-- Education Box -->
+                    <div class="box education-box">
+                        <h3>Education <i class="fa-solid fa-school"></i></h3>
+                        <p>Bachelor of Science in Computer Science</p>
+                        <p>Concentration in Software Engineering</p>
+                        <p>Virginia Commonwealth University, Expected May 2025</p>
+                    </div>
+
+                    <!-- Programming Languages Box -->
+                    <div class="box languages-box">
+                        <h3>Programming Languages <i class="fa-solid fa-computer"></i></h3>
+                        <p>Java (Proficient), Python (Intermediate), SQL (Intermediate),</p>
+                        <p>PHP (Intermediate), C (Intermediate), JavaScript (Elementary),</p>
+                        <p>MongoDB (Elementary), HTML & CSS (Intermediate), Swift (Elementary)</p>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--   SKILLS SECTION DESIGN  -->
+
+            <section class="interests" id="interests">
+    <div class="interests-content">
+        <h2 class="heading">My <span>Interests</span></h2>
+        <div class="interests-boxes">
+            
+            <!-- Backend Development Box -->
+            <div class="box backend-box">
+                <h3>Backend Development <i class="fa-brands fa-python"></i></h3>
+                <p>I am passionate about building scalable and efficient backend systems. I've worked with SQL databases and developed a full-stack application, focusing on server-side development and database management.</p>
+            </div>
+
+            <!-- Web Development Box -->
+            <div class="box webdev-box">
+                <h3>Web Development <i class="fa-solid fa-laptop-code"></i></h3>
+                <p>Highly interested in web development and constantly improving my skills through personal projects, including this portfolio website. I'm always exploring new technologies to enhance user experience and functionality.</p>
+            </div>
+
+            <!-- Java & Data Structures Box -->
+            <div class="box java-box">
+                <h3>Java & Data Structures <i class="fa-brands fa-java"></i></h3>
+                <p>I am most proficient in Java and have a strong understanding of Data Structures. I continually work on refining my algorithms and problem-solving skills to build efficient software solutions.</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+        <!--   PORTFOLIO SECTION DESIGN  -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <a href="https://cmsc508.com/~24SP_genenes/frontPage.php" target="_blank">
+                        <img src="assets/proj1.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>ESU Website</h4>
+                        <p>Website for ESU studnets and alumni to connect with eachother.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                    </a>
+                    
+                </div>
+
+                <div class="portfolio-box">
+                    <a href="https://github.com/NahomeKifle/Basic-Chat-Application" target="_blank">
+                        <img src="assets/proj2.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Chat Application</h4>
+                        <p>Chat application that connects to a server and runs multiple clienst that can communicate.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-box">
+                    <a href="https://github.com/NahomeKifle/SnakeGame/tree/main/Project2.1/out/production/Project2.1/cmsc256" target="_blank">
+                        <img src="assets/proj3.webp" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Snake Game</h4>
+                        <p>Snake game using Java and Bridges API to render and biuld.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-box">
+                    <a href="https://github.com/NahomeKifle/Github-Repo-Client" target="_blank">
+                        <img src="assets/proj4.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Interacting with GitHub's REST API</h4>
+                        <p>Python application that interacts with GitHubs REST API.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--   CONTACT SECTION DESIGN  -->
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="input-box">
+                    <input type="text" name="full_name" placeholder="Full Name">
+                    <input type="email" name="email" placeholder="Email Address">
+                </div>
+
+                <input type="hidden" name="access_key" value="4567f294-0bae-4ddd-8b5f-2cf0d9cfd72b">
+
+                <div class="input-box">
+                    <input type="number" name="mobile_number" placeholder="Mobile Number">
+                    <input type="text" name="subject" placeholder="Email Subject">
+                </div>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+
+        <!--   FOOTER SECTION DESIGN  -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by @NahomeKifle | All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </footer>
+        
+
+        <!--   SCROLL REVEAL JS  -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+
+        <!--   TYPED JS  -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <!--   MAIN.JS  -->
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
