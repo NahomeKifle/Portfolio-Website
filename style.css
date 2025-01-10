@@ -207,15 +207,13 @@ span {
     box-shadow: 0 0 1.5rem var(--main-color);
 }
 
-.education-box h3,
-.languages-box h3 {
+.about-boxes .box h3 {
     font-size: 2.6rem;
     margin-bottom: 1rem;
     color: var(--main-color);
 }
 
-.education-box p,
-.languages-box p {
+.about-boxes .box p {
     font-size: 1.6rem;
     margin-bottom: 0.8rem;
     color: var(--text-color);
@@ -639,5 +637,35 @@ span {
 
     .contact form.input-box input {
         width: 100%;
+    }
+}
+
+/* Adjust responsive design for "About Me" section */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        padding: 5rem 3%;
+    }
+
+    .about-boxes {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .about-boxes .box {
+        width: 100%;
+        padding: 2rem; /* Ensure enough padding inside the boxes */
+        overflow: visible; /* Prevent content from being clipped */
+    }
+
+    .about-boxes .box h3 {
+        text-align: center;
+        word-wrap: break-word; /* Ensure long words break properly */
+    }
+
+    .about-boxes .box p {
+        text-align: center;
+        word-wrap: break-word; /* Ensure long words break properly */
+        margin: 0 auto; /* Center the text properly */
     }
 }
